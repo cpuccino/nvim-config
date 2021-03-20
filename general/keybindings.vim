@@ -2,8 +2,7 @@
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
-" Remap normal mode
-inoremap jj <Esc>
+" Normal mode
 inoremap jj <Esc>
 
 " Easy CAPS
@@ -42,3 +41,6 @@ nmap ren <Plug>(coc-rename)
 " Commenting
 nmap <C-_>   <Plug>NERDCommenterToggle
 vmap <C-_>   <Plug>NERDCommenterToggle<CR>gv
+
+" Show Nerd Tree
+nmap <C-b> :NERDTreeToggle<CR>
